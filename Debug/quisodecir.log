@@ -1,0 +1,8 @@
+﻿LINK : warning LNK4067: punto de entrada ambiguo; se seleccionó 'mainCRTStartup'
+Corrector.obj : error LNK2019: símbolo externo "void __cdecl Diccionario(char *,char (* const)[50],int * const,int &)" (?Diccionario@@YAXPADQAY0DC@DQAHAAH@Z) sin resolver al que se hace referencia en la función _main
+quisodecir.obj : error LNK2001: símbolo externo "void __cdecl Diccionario(char *,char (* const)[50],int * const,int &)" (?Diccionario@@YAXPADQAY0DC@DQAHAAH@Z) sin resolver
+Corrector.obj : error LNK2019: símbolo externo "void __cdecl ClonaPalabras(char *,char (* const)[50],int &)" (?ClonaPalabras@@YAXPADQAY0DC@DAAH@Z) sin resolver al que se hace referencia en la función _main
+quisodecir.obj : error LNK2001: símbolo externo "void __cdecl ClonaPalabras(char *,char (* const)[50],int &)" (?ClonaPalabras@@YAXPADQAY0DC@DAAH@Z) sin resolver
+Corrector.obj : error LNK2019: símbolo externo "void __cdecl ListaCandidatas(char (* const)[50],int,char (* const)[50],int * const,int,char (* const)[50],int * const,int &)" (?ListaCandidatas@@YAXQAY0DC@DH0QAHH01AAH@Z) sin resolver al que se hace referencia en la función _main
+quisodecir.obj : error LNK2001: símbolo externo "void __cdecl ListaCandidatas(char (* const)[50],int,char (* const)[50],int * const,int,char (* const)[50],int * const,int &)" (?ListaCandidatas@@YAXQAY0DC@DH0QAHH01AAH@Z) sin resolver
+C:\Users\estup\OneDrive\Escritorio\quisodecirAlumnos\Debug\quisodecir.exe : fatal error LNK1120: 3 externos sin resolver
